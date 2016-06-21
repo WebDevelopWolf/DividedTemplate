@@ -1,0 +1,411 @@
+@import 'fonts.css';
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+
+html, body, .container-fluid {
+    height:100%;
+}
+
+body {
+    display: block;
+    background:#FFF;
+    overflow-x: hidden;
+    overflow-y: auto;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    font-size: 12px;
+}
+
+h1 {
+    font-family: 'elemental_endregular';
+    font-size: 4em;
+    letter-spacing: 0.2em;
+    font-variant: small-caps;
+}
+
+.container-fluid {
+    padding-right:0px;
+    padding-left:0px;
+}
+
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+section {
+    padding: 135px 0px 45px 0px;
+    font-family: 'juramedium';
+    letter-spacing: 0.2em;
+    text-align: center;
+    color: #FFF;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.img-circle {
+    border-radius: 50%;
+    width:100%;
+    height:100%;
+    margin-top:30px;
+}
+
+.no-gutter {
+    padding-right:0;
+    padding-left:0;
+}
+
+#home {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background: -webkit-linear-gradient(top left, #FFF 50%, #8a0707 50%);
+    background: -o-linear-gradient(top left, #FFF 50%, #8a0707 50%);
+    background: linear-gradient(to bottom right, #FFF 50%, #8a0707 50%);
+    padding:0px;
+}
+
+#home .title {
+    text-align: center;
+    font-family: 'elemental_endregular';
+    font-size: 6.5em;
+    color:#333;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    margin-top:35px;
+    z-index: 998;
+}
+
+#home .title span {
+    color:#000;
+}
+
+.title .subtitle {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 0.3em;
+    color:#000;
+    text-transform: none;
+    font-variant: small-caps;
+    letter-spacing: 0.15em;
+    font-weight: 700;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    padding: 25px 110px 0px 80px;
+    color: #8a0707;
+    letter-spacing: 0.2em;
+    font-variant: small-caps;
+    transition: all 0.4s ease;
+}
+
+header.sticky {
+  line-height: 48px;
+  height: 100px;
+  background: #FFF;
+  color:#000;
+  z-index: 999;
+}
+
+.logo {
+    font-family: 'elemental_endregular';
+    font-size: 2.1em;
+    text-align: left;
+}
+
+nav a {
+    font-family: 'PT Sans', sans-serif;
+    font-size:1.7em;
+    margin-right:70px;
+    color: #8a0707;
+}
+
+nav a:hover {
+    color: #660808;
+}
+
+nav a:last-child {
+    margin-right:30px;
+}
+
+.navbar-default {
+    border: none;
+    background-color: transparent;
+}
+
+#testimonial {
+    background: #000 url('../images/testimonials-bg.png') repeat;
+    padding: 135px 0px 45px 0px;
+    font-size: 1.25em;
+}
+
+#testimonial h1 {
+    color:#FFF;
+}
+
+#testimonials {
+    margin: 85px 0px;
+}
+
+.carousel-indicators {
+    top: 80px;
+}
+
+.carousel-indicators li {
+    background-color: #FFF;
+}
+
+.carousel-indicators .active {
+    width: 12px;
+    height: 12px;
+    margin: 0;
+    background-color: #8a0707;
+    border: 1px solid #8a0707;
+}
+
+.carousel-caption {
+    position: relative;
+    color: #8a0707;
+}
+
+#books {
+    background: #1f1f1f;
+    padding: 0px 0px 45px 0px;
+    font-size: 1.30em;
+    font-variant: small-caps;
+}
+
+#books h1 {
+    font-size: 3.8em;
+}
+
+#books h1, #books h2 {
+    color: #8a0707;
+}
+
+#books div {
+    margin-top: 95px;
+}
+
+#about {
+    background: #FFF;
+    padding:0px;
+    font-family: 'antic_didoneregular';
+    color: #000;
+    font-size: 1.25em;
+}
+
+.rotate {
+    -webkit-transform: rotate(-5deg);
+    -moz-transform: rotate(-5deg);
+    -ms-transform: rotate(-5deg);
+    -o-transform: rotate(-5deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+    text-align: justify;
+}
+
+.rotate img {
+    margin:0px 7px 7px 0px; 
+}
+
+#about h3 {
+    font-family: '3_times_recycled_old_newspaRg';
+    font-size: 5.41em;
+}
+
+.author-bottom {
+    margin-top:60px;
+}
+
+#more {
+    margin-top: -140px;
+    background: #8a0707;
+    font-family: 'juramedium';
+    color: #FFF;
+    font-size: 1.3em;
+}
+
+#more h4 {
+    font-size: 1.5em;
+    text-transform: uppercase;
+    color: #FFF;
+    margin-top:80px;
+}
+
+#more h1, #more div {
+    color: #1f1f1f;
+}
+
+#more h1 {
+    font-size: 3em;
+    margin-bottom:40px;
+}
+
+#more h1 span {
+    color:#FFF;
+}
+
+.more-quotes {
+    color: #FFF !important;
+    margin-top:60px;
+}
+
+.more-quotes span {
+    color: #1f1f1f !important;
+}
+
+#buy {
+    background: #000 url('../images/buy-bg.png') repeat;
+    padding: 70px 0px 85px 0px;
+}
+
+#buy h1 {
+    color: #FFF;
+}
+
+#buy a {
+    margin-top:40px;
+    color:#8a0707;
+}
+
+#buy a span {
+    color:#000;
+}
+
+footer {
+    background: #000;
+    color:#FFF;
+    font-family: 'PT Sans', sans-serif;
+    font-size:1.25em;
+    padding: 15px 20px 15px 20px;
+}
+
+@media only screen and (min-width : 320px) and (max-width : 568px) { 
+    header {
+        padding: 0px;
+        color: #8a0707;
+    }
+    .navbar-nav{
+        background:#FFF;
+        z-index: 999;
+    }
+    .navbar-collapse {
+        border:0px;
+    }
+    
+    #testimonial h1 {
+        font-size: 2em;
+    }
+    
+    #testimonial {
+        font-size: 0.7em;
+    }
+    
+    .rotate {
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+        text-align: justify;
+    }
+    
+    .rotate img {
+        width:100%;
+    }
+    
+    #about h3 {
+        font-size: 2em;
+    }
+    
+    #more {
+        margin-top: -20px;
+        font-size: 0.8em;
+    }
+    
+    #more h4 {
+        margin-top: -80px;
+    }
+    
+    #buy h1 {
+        font-size: 2em;
+    }
+    
+    #buy a {
+        font-size: 0.7em;
+    }
+    
+    footer {
+        font-size: 1em;
+    }
+}
+
+@media only screen and (min-width : 768px) and (max-width : 1100px) { 
+    header {
+        padding: 0px;
+        color: #8a0707;
+    }
+    .navbar-nav{
+        z-index: 999;
+    }
+    .navbar-collapse {
+        border:0px;
+    }
+    
+    #testimonial h1 {
+        font-size: 3.2em;
+    }
+    
+    #testimonial {
+        font-size: 1.25em;
+    }
+    
+    .rotate {
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+        text-align: justify;
+    }
+    
+    .rotate img {
+        width:100%;
+    }
+    
+    #about h3 {
+        font-size: 3em;
+    }
+    
+    #more {
+        margin-top: -60px;
+        font-size: 0.8em;
+    }
+    
+    #more h4 {
+        margin-top: -40px;
+    }
+    
+    #buy h1 {
+        font-size: 3em;
+    }
+    
+    #buy a {
+        font-size: 1.5em;
+    }
+    
+    footer {
+        display:none;
+    }
+}
