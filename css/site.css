@@ -1,5 +1,7 @@
 @import 'fonts.css';
 @import url('https://fonts.googleapis.com/css?family=PT+Sans');
+@import url('https://fonts.googleapis.com/css?family=Taviraj');
+@import url('https://fonts.googleapis.com/css?family=Changa');
 
 html, body, .container-fluid {
     height:100%;
@@ -7,7 +9,7 @@ html, body, .container-fluid {
 
 body {
     display: block;
-    background:#FFF;
+    background:#000;
     overflow-x: hidden;
     overflow-y: auto;
     font-weight: 400;
@@ -16,7 +18,7 @@ body {
 }
 
 h1 {
-    font-family: 'elemental_endregular';
+    font-family: 'Taviraj', serif;
     font-size: 4em;
     letter-spacing: 0.2em;
     font-variant: small-caps;
@@ -34,7 +36,7 @@ h1 {
 
 section {
     padding: 135px 0px 45px 0px;
-    font-family: 'juramedium';
+    font-family: 'Changa', sans-serif;
     letter-spacing: 0.2em;
     text-align: center;
     color: #FFF;
@@ -62,34 +64,29 @@ section {
     height: 100%;
     margin-top: 0px;
     margin-bottom: 0px;
-    background: -webkit-linear-gradient(top left, #FFF 50%, #8a0707 50%);
-    background: -o-linear-gradient(top left, #FFF 50%, #8a0707 50%);
-    background: linear-gradient(to bottom right, #FFF 50%, #8a0707 50%);
+    background: -webkit-linear-gradient(top left, #000 50%, #333 50%);
+    background: -o-linear-gradient(top left, #000 50%, #333 50%);
+    background: linear-gradient(to bottom right, #000 50%, #333 50%);
     padding:0px;
 }
 
 #home .title {
     text-align: center;
-    font-family: 'elemental_endregular';
+    font-family: 'Taviraj', serif;
     font-size: 6.5em;
-    color:#333;
+    color:#c5f902;
     position: relative;
     top: 50%;
     transform: translateY(-50%);
     letter-spacing: 0.2em;
-    text-transform: uppercase;
     margin-top:35px;
     z-index: 998;
-}
-
-#home .title span {
-    color:#000;
 }
 
 .title .subtitle {
     font-family: 'PT Sans', sans-serif;
     font-size: 0.3em;
-    color:#000;
+    color:#FFF;
     text-transform: none;
     font-variant: small-caps;
     letter-spacing: 0.15em;
@@ -104,22 +101,21 @@ header {
     position: fixed;
     width: 100%;
     padding: 25px 110px 0px 80px;
-    color: #8a0707;
+    color: #c5f902;
     letter-spacing: 0.2em;
-    font-variant: small-caps;
     transition: all 0.4s ease;
 }
 
 header.sticky {
   line-height: 48px;
   height: 100px;
-  background: #FFF;
+  background: #999;
   color:#000;
   z-index: 999;
 }
 
 .logo {
-    font-family: 'elemental_endregular';
+    font-family: 'Taviraj', serif;
     font-size: 2.1em;
     text-align: left;
 }
@@ -128,11 +124,12 @@ nav a {
     font-family: 'PT Sans', sans-serif;
     font-size:1.7em;
     margin-right:70px;
-    color: #8a0707;
+    color: #c5f902;
 }
 
 nav a:hover {
-    color: #660808;
+    color: #c5f902;
+    text-decoration: underline;
 }
 
 nav a:last-child {
@@ -170,13 +167,13 @@ nav a:last-child {
     width: 12px;
     height: 12px;
     margin: 0;
-    background-color: #8a0707;
-    border: 1px solid #8a0707;
+    background-color: #c5f902;
+    border: 1px solid #c5f902;
 }
 
 .carousel-caption {
     position: relative;
-    color: #8a0707;
+    color: #c5f902;
 }
 
 #books {
@@ -191,7 +188,7 @@ nav a:last-child {
 }
 
 #books h1, #books h2 {
-    color: #8a0707;
+    color: #c5f902;
 }
 
 #books div {
@@ -230,21 +227,20 @@ nav a:last-child {
 
 #more {
     margin-top: -140px;
-    background: #8a0707;
-    font-family: 'juramedium';
-    color: #FFF;
+    background: #c5f902;
+    font-family: 'Changa', sans-serif;
+    color: #666;
     font-size: 1.3em;
 }
 
 #more h4 {
     font-size: 1.5em;
-    text-transform: uppercase;
-    color: #FFF;
+    color: #000;
     margin-top:80px;
 }
 
 #more h1, #more div {
-    color: #1f1f1f;
+    color: #666;
 }
 
 #more h1 {
@@ -253,16 +249,16 @@ nav a:last-child {
 }
 
 #more h1 span {
-    color:#FFF;
+    color:#000;
 }
 
 .more-quotes {
-    color: #FFF !important;
+    color: #000 !important;
     margin-top:60px;
 }
 
 .more-quotes span {
-    color: #1f1f1f !important;
+    color: #666 !important;
 }
 
 #buy {
@@ -276,7 +272,8 @@ nav a:last-child {
 
 #buy a {
     margin-top:40px;
-    color:#8a0707;
+    color:#c5f902;
+    background: #333;
 }
 
 #buy a span {
@@ -294,7 +291,7 @@ footer {
 @media only screen and (min-width : 320px) and (max-width : 568px) { 
     header {
         padding: 0px;
-        color: #8a0707;
+        color: #c5f902;
     }
     .navbar-nav{
         background:#FFF;
@@ -354,7 +351,7 @@ footer {
 @media only screen and (min-width : 768px) and (max-width : 1100px) { 
     header {
         padding: 0px;
-        color: #8a0707;
+        color: #c5f902;
     }
     .navbar-nav{
         z-index: 999;
